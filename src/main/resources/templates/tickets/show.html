@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+ <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<title>Ticket Tracker - View Ticket</title>
+</head>
+<body>
+<h1>Ticket Tracker - View Ticket</h1>
+<p><strong>Title:</strong> <span th:text="${ticket.title}"></span></p>
+<p><strong>Description:</strong> <span th:text="${ticket.description}"></span></p>
+<p><strong>Content:</strong> <span th:text="${ticket.content}"></span></p>
+<p><strong>Date:</strong> <span th:text="${ticket.date}"></span></p>
+</body>
+</html>
